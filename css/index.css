@@ -1,0 +1,14 @@
+
+h1, h2, h3, h4 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+}
+
+p, table, ul, dl {
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 2em;
+}
+
+img {
+  width: 50%;
+}
