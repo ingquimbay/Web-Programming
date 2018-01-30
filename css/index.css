@@ -2,13 +2,48 @@
 h1, h2, h3, h4 {
   font-family: 'Permanent Marker', cursive;
   font-size: 3em;
+  text-decoration-line: underline;
+  text-decoration-color: #47b7e0;
+  text-decoration-style: double;
 }
 
-p, table, ul, dl {
+.topNav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.topNav li {
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 120%;
+  display: inline-block;
+}
+
+p, ul, dl {
   font-family: 'Swanky and Moo Moo', cursive;
   font-size: 2em;
 }
 
+table {
+  font-family: 'Swanky and Moo Moo', cursive;
+  width: 60%;
+  padding: 15px;
+  font-size: 2em;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddffbc;
+}
+
 img {
+  outline-style: solid;
+  border-radius: 38px;
   width: 50%;
+  box-shadow: 0 4px 10px -10px;
 }
