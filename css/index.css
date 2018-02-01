@@ -4,33 +4,47 @@ h1, h2, h3, h4 {
   font-size: 3em;
   text-decoration-line: underline;
   text-decoration-color: #47b7e0;
-  text-decoration-style: double;
+  text-decoration-style: solid;
 }
 
 .topNav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
   list-style: none;
   text-align: center;
   padding: 0;
-  margin: 0;
 }
 
 .topNav li {
   font-family: 'Swanky and Moo Moo', cursive;
-  font-size: 120%;
+  font-size: 100%;
   display: inline-block;
 }
 
-p, ul, dl {
+.titulo {
+  margin-top: 100px;
+}
+
+p, ul, dl, ol {
   font-family: 'Swanky and Moo Moo', cursive;
   font-size: 2em;
+}
+
+.parrafo {
+  font-size: 18pt;
+  display: block;
+  text-align: left;
 }
 
 table {
   font-family: 'Swanky and Moo Moo', cursive;
-  width: 60%;
+  width: 80%;
   padding: 15px;
   font-size: 2em;
   text-align: center;
+  align-self: center;
 }
 
 tr:hover {
@@ -42,8 +56,9 @@ tr:nth-child(odd) {
 }
 
 img {
-  outline-style: solid;
+  float: left;
+  margin-right: 20px;
   border-radius: 38px;
-  width: 50%;
-  box-shadow: 0 4px 10px -10px;
+  width: 40%;
+  box-shadow: 4px 4px #454F4C;
 }
