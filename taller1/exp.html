@@ -17,7 +17,14 @@
     <ul>
       <li><a href="index.html">Bienvenida</a></li>
       <li><a href="bio.html">Datos Biograficos</a></li>
-      <li><a href="#">Experiencia Laboral</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Experiencia Laboral</a>
+        <div class="dropdown-content">
+          <a href="exp.html#1">Educacion</a>
+          <a href="exp.html#2">Manejo de Software</a>
+          <a href="exp.html#3">Experiencia Laboral</a>
+        </div>
+      </li>
       <li><a href="int.html">Material de Interes</a></li>
     </ul>
   </nav>
@@ -30,7 +37,7 @@
     <article>
       <h2 id="3">Experiencia Laboral</h2>
 
-      <h3>Educación</h3>
+      <h3 id="#1">Educación</h3>
 
       <dl class="edu" onmouseover="cambialo(this)">
         <dt>Pontificia Universidad Javeriana</dt>
@@ -44,7 +51,7 @@
         </dd>
       </dl>
 
-      <h3>Manejo de Software</h3>
+      <h3 id="#2">Manejo de Software</h3>
 
       <p class="len" onmouseover="cambialo(this)">
         Dominio de Windows, macOS y Linux. Nivel intermedio en MS Office.<br>
@@ -52,7 +59,7 @@
         SQL Developer and Modeler.<br>
         Lenguajes de desarrollo C++, C, Java, SQL, Python.</p>
 
-        <h3>Experiencia Laboral</h3>
+        <h3 id="#3">Experiencia Laboral</h3>
         <ul class="lab" onmouseover="cambialo(this)">
           <li>US Army</li>
           <ul><li>2001 - 2005</li></ul>

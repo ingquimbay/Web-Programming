@@ -9,129 +9,144 @@
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  <script type="text/javascript" src="index.js" ></script>
+
   <title>My First Page</title>
 </head>
 
 <body>
 
   <nav class="topNav">
-    <ul>
-      <li><a href="#1">Bienvenida</a></li>
-      <li><a href="#2">Datos Biograficos</a></li>
-      <li><a href="#3">Experiencia Laboral</a></li>
-      <li><a href="#4">Material de Interes</a></li>
-    </ul>
+	<ul>
+	  <li><a href="#1">Bienvenida</a></li>
+	  <li><a href="#2">Datos Biograficos</a></li>
+	  <li><a href="#3">Experiencia Laboral</a></li>
+	  <li><a href="#4">Material de Interes</a></li>
+	</ul>
 
   </nav>
 
   <header class="titulo">
-    <h1>Página del Ingeniero Carlos Quimbay</h1>
+	<h1>Página del Ingeniero Carlos Quimbay</h1>
   </header>
 
   <main class="main">
 
-    <article>
-      <h2 id="1">Bienvenida</h2>
+	<article>
+	  <h2 id="1">Bienvenida</h2>
 
-      <p>Bienvenido a esta pagina chirrete!</p>
+	  <p>Bienvenido a esta pagina chirrete!</p>
 
-      <img src="img/img.jpeg" alt="Carlos Quimbay">
+	  <img src="img/img.jpeg" alt="Carlos Quimbay">
 
-      <p class="parrafo">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-        eros tortor. Nulla lorem ligula, auctor eu magna ac, gravida feugiat
-        nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-        posuere cubilia Curae; Morbi nec leo sollicitudin, eleifend augue vitae,
-        rhoncus erat. Donec lacinia varius urna ut tincidunt. Nunc sit amet
-        lacus consectetur, maximus lacus sit amet, venenatis nunc. Aenean
-        malesuada tristique nulla, in placerat est porttitor at. Aenean non
-        vulputate risus, nec sodales nisl. Phasellus facilisis quam eget sem
-        tincidunt, quis ullamcorper nisl placerat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-        eros tortor. Nulla lorem ligula, auctor eu magna ac, gravida feugiat
-        nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-        posuere cubilia Curae; Morbi nec leo sollicitudin, eleifend augue vitae,
-        rhoncus erat. Donec lacinia varius urna ut tincidunt. Nunc sit amet
-        lacus consectetur, maximus lacus sit amet, venenatis nunc. Aenean
-        malesuada tristique nulla, in placerat est porttitor at. Aenean non
-        vulputate risus, nec sodales nisl. Phasellus facilisis quam eget sem
-        tincidunt, quis ullamcorper nisl placerat.
-      </p>
+	  <p class="parrafo">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+		eros tortor. Nulla lorem ligula, auctor eu magna ac, gravida feugiat
+		nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+		posuere cubilia Curae; Morbi nec leo sollicitudin, eleifend augue vitae,
+		rhoncus erat. Donec lacinia varius urna ut tincidunt. Nunc sit amet
+		lacus consectetur, maximus lacus sit amet, venenatis nunc. Aenean
+		malesuada tristique nulla, in placerat est porttitor at. Aenean non
+		vulputate risus, nec sodales nisl. Phasellus facilisis quam eget sem
+		tincidunt, quis ullamcorper nisl placerat.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+		eros tortor. Nulla lorem ligula, auctor eu magna ac, gravida feugiat
+		nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+		posuere cubilia Curae; Morbi nec leo sollicitudin, eleifend augue vitae,
+		rhoncus erat. Donec lacinia varius urna ut tincidunt. Nunc sit amet
+		lacus consectetur, maximus lacus sit amet, venenatis nunc. Aenean
+		malesuada tristique nulla, in placerat est porttitor at. Aenean non
+		vulputate risus, nec sodales nisl. Phasellus facilisis quam eget sem
+		tincidunt, quis ullamcorper nisl placerat.
+	  </p>
 
-      <h2 id="2">Datos Biograficos</h2>
+	  <h2 id="2">Datos Biograficos</h2>
 
-      <table>
-        <thead>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Fecha Nacimiento</td>
-          <td>22 de Diciembre 1981</td>
-        </tr>
-        <tr>
-          <td>Lugar Nacimiento</td>
-          <td>Bogotá</td>
-        </tr>
-        <tr>
-          <td>Correo electrónico</td>
-          <td><a href="mailto:quimbayc@javeriana.edu.co?Subject=Hello"
-                target="top">quimbayc@javeriana.edu.co</a></td>
-        </tr>
-        <tr>
-          <td>Lenguajes</td>
-          <td>English, Español</td>
-        </tr>
-        </tbody>
-      </table>
+	  <form action="processForm" method="get">
+		<div>
+		  <label for="txtNombre">Nombre </label>
+		  <input type="text" name="nombre" id="txtNombre" />
+		</div>
+		<div>
+		  <label for="txtCedula">Cedula </label>
+		  <input type="text" name="cedula" id="txtCedula" />
+		</div>
+		<input type="submit" name="enviar" value="Enviar" />
+	  </form>
 
-      <h2 id="3">Experiencia Laboral</h2>
+	  <table>
+		<thead>
+		</thead>
+		<tbody>
+		<tr>
+		  <td>Fecha Nacimiento</td>
+		  <td>22 de Diciembre 1981</td>
+		</tr>
+		<tr>
+		  <td>Lugar Nacimiento</td>
+		  <td>Bogotá</td>
+		</tr>
+		<tr>
+		  <td>Correo electrónico</td>
+		  <td><a href="mailto:quimbayc@javeriana.edu.co?Subject=Hello"
+				target="top">quimbayc@javeriana.edu.co</a></td>
+		</tr>
+		<tr>
+		  <td>Lenguajes</td>
+		  <td>English, Español</td>
+		</tr>
+		</tbody>
+	  </table>
 
-        <h3>Educación</h3>
-          <dl>
-            <dt>Pontificia Universidad Javeriana</dt>
-            <dd>Ingeniería de Sistemas<br>
-              Bogotá - Colombia 2018
-            </dd>
-            <br>
-            <dt>DeVry University</dt>
-            <dd>BS Electronics Engineering Technology<br>
-              Chicago IL - USA 2008
-            </dd>
-          </dl>
+	  <h2 id="3">Experiencia Laboral</h2>
 
-        <h4>Manejo de Software</h4>
+		<h3>Educación</h3>
+		  <dl>
+			<dt>Pontificia Universidad Javeriana</dt>
+			<dd>Ingeniería de Sistemas<br>
+			  Bogotá - Colombia 2018
+			</dd>
+			<br>
+			<dt>DeVry University</dt>
+			<dd>BS Electronics Engineering Technology<br>
+			  Chicago IL - USA 2008
+			</dd>
+		  </dl>
 
-        <p>Dominio de Windows, macOS y Linux. Nivel intermedio en MS Office.<br>
-          Habilidad en IDEs Netbeans, Eclipse, CodeBlocks, Enterprise Architect,
-          SQL Developer and Modeler.<br>
-          Lenguajes de desarrollo C++, C, Java, SQL, Python.</p>
+		<h4>Manejo de Software</h4>
 
-        <h3>Experiencia Laboral</h3>
-          <ul>
-            <li>US Army</li>
-              <ul><li>2001 - 2005</li></ul>
-            <li>Baxter / Kelly Technology</li>
-              <ul><li>2009</li></ul>
-            <li>Panasonic / Randstad</li>
-              <ul><li>2010 - 2012</li></ul>
-            <li>Walgreens</li>
-              <ul><li>2012 - 2013</li></ul>
-          </ul>
+		<p>Dominio de Windows, macOS y Linux. Nivel intermedio en MS Office.<br>
+		  Habilidad en IDEs Netbeans, Eclipse, CodeBlocks, Enterprise Architect,
+		  SQL Developer and Modeler.<br>
+		  Lenguajes de desarrollo C++, C, Java, SQL, Python.</p>
 
-      <h2 id="4">Material de Interes</h2>
+		<h3>Experiencia Laboral</h3>
+		  <ul>
+			<li>US Army</li>
+			  <ul><li>2001 - 2005</li></ul>
+			<li>Baxter / Kelly Technology</li>
+			  <ul><li>2009</li></ul>
+			<li>Panasonic / Randstad</li>
+			  <ul><li>2010 - 2012</li></ul>
+			<li>Walgreens</li>
+			  <ul><li>2012 - 2013</li></ul>
+		  </ul>
 
-        <ol>
-          <li><a target="_blank" href="https://www.youtube.com/playlist?list=FL_-pozrQoqS29dIp6VMzo6Q">Videos favoritos YouTube</a></li>
-          <li><a target="_blank" href="https://drive.google.com/file/d/0B8h-4Q3gVHw4bTVaOE11bDh3dFU/view?usp=sharing">Full Curriculum Vitae</a></li>
-          <li><a target="_blank" href="https://github.com/ingquimbay">github</a></li>
-        </ol>
+	  <h2 id="4">Material de Interes</h2>
 
-    </article>
+		<ol>
+		  <li><a target="_blank" href="https://www.youtube.com/playlist?list=FL_-pozrQoqS29dIp6VMzo6Q">Videos favoritos YouTube</a></li>
+		  <li><a target="_blank" href="https://drive.google.com/file/d/0B8h-4Q3gVHw4bTVaOE11bDh3dFU/view?usp=sharing">Full Curriculum Vitae</a></li>
+		  <li><a target="_blank" href="https://github.com/ingquimbay">github</a></li>
+		</ol>
+
+	</article>
 
   </main>
 
   <footer>
-    <p>©Copyright 2018 by Carlos Quimbay. All rights reversed.</p>
+	<p>©Copyright 2018 by Carlos Quimbay. All rights reversed.</p>
   </footer>
 
 </body>
