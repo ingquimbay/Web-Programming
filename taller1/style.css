@@ -126,6 +126,8 @@ table tbody tr:nth-child(odd) {
 footer {
   bottom: 0;
   width: 100%;
-  background-color: white;
-  position: fixed;
+  color: white;
+  text-align: center;
+  background-color: #2668B2;
+  padding: 2px 2px 2px 2px;
 }

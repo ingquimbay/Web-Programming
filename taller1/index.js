@@ -1,5 +1,5 @@
 function cambialo(element) {
-  element.style.color = "white";
+  element.style.color = "black";
   element.style.textSize = '3em';
   element.style.backgroundColor = "#FFAE27";
   element.style.borderstyle = "solid";
@@ -8,5 +8,7 @@ function cambialo(element) {
   element.style.boxshadow = '10px 10px 10px gray';
   element.style.width = "500px";
   element.style.height = "200px";
-  element.childNodes [0].nodeValue = "Se ha cambiado el estylo del texto";
+  element.childNodes [0].nodeValue = "Se ha cambiado el estilo del texto";
 }
+
+$('.nav').localScroll();
