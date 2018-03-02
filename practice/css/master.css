@@ -1,0 +1,132 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #7EB3FF;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button1{
+  height: 38px;
+  background: #B27A0D;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+header {
+  background: #1E5BB2;
+  color: white;
+  padding-top: 20px;
+  min-height: 50px;
+  border-bottom: #FFC045 4px solid;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+}
+
+header .highlight, header .current a{
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #FFC045;
+  font-weight: bold;
+}
+
+#showcase{
+  min-height: 300px;
+  text-align: center;
+  color: white;
+  background-image: url("../img/proglang.jpg");
+}
+
+#showcase h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+#newsletter{
+  padding: 80px;
+  color: white;
+  background: #1E5BB2;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 20px;
+  width: 200px;
+}
+
+#boxes{
+  margin-top: 30px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 80px;
+}
+
+footer{
+  padding: 8px;
+  margin-top: 8px;
+  color: white;
+  background-color: #1E5BB2;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;;
+}
