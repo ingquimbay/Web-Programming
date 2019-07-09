@@ -1,0 +1,60 @@
+body {
+    background: pink;
+    font-family: "Nunito", sans-serif;
+}
+
+.second h2 {
+    color: red;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.second p {
+    color: rgb(255, 98, 221);
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavabar .nav-link:hover {
+    color: red;
+}
+
+#mainNavbar .navbar-brand {
+    color: red;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: red;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(229, 137, 229);
+    transition: background 500ms;
+}
+
+@media (max-width: 120px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}

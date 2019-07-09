@@ -1,0 +1,20 @@
+Specificity Calculator
+https://specificity.keegan.st/
+
+The 30 CSS Selectors You Must Memorize
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+Lorem Ipsum Generators
+https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/
+
+Bootswatch
+https://bootswatch.com/
+
+Semantic UI
+https://semantic-ui.com/
+
+Sass
+https://sass-lang.com/
+
+Bootstrap
+https://getbootstrap.com/
