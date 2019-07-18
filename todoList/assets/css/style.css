@@ -1,0 +1,71 @@
+body { 
+    background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    background-color: steelblue;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 20px;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 12px 12px 12px 20px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background: #fff;
+    border: 2px solid;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: rgb(190, 220, 240);
+    height: 40px;
+    line-height: 40px;
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+span {
+    background-color: rgb(220, 90, 90);
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0px;
+    opacity: 0;
+    color: white;
+    display: inline-block;
+    transition: 0.3s linear;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+
+#container {
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.completed {
+    color: gray;
+}
